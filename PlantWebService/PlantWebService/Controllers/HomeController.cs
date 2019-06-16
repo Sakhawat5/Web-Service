@@ -16,7 +16,7 @@ namespace PlantWebService.Controllers
             sum = a * b;
 
             int v = Sum(49, 6);
-            return "This is my result = "+sum+" this is sum value "+v;
+            return "This is summation result = "+sum;
         }
         public int Sum(int a, int b)
         {
