@@ -14,7 +14,7 @@ namespace PlantWebService.Controllers
         {
             int a=20, b=30, sum;
             sum = a * b;
-
+            var add = sum;
             int v = Sum(49, 6);
             return "This is summation result = "+sum;
         }
