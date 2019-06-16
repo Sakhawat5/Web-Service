@@ -14,15 +14,15 @@ namespace PlantWebService.Controllers
         {
             int a=20, b=30, sum;
             sum = a * b;
-          int ac=  Add(20, 50);
 
-            return "This is my result = "+sum +" a +b = "+ac;
+            int v = Sum(49, 6);
+            return "This is summation result = "+sum;
         }
-        public int Add(int a , int b)
+        public int Sum(int a, int b)
         {
-            int sum = a + b;
-            return sum;
+            return a + b;
         }
+
         public IActionResult Privacy()
         {
             return View();
