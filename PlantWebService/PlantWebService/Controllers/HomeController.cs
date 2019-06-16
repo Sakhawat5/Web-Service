@@ -13,7 +13,7 @@ namespace PlantWebService.Controllers
         public string Index()
         {
             int a=20, b=30, sum;
-            sum = a + b;
+            sum = a * b;
 
 
             return "This is my result = "+sum;
